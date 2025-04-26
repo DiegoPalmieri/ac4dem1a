@@ -1,6 +1,6 @@
 {
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self' https://pokeapi.co; connect-src *; script-src 'self' 'nonce-randomNonceHere'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src * data:; font-src 'self' https://fonts.gstatic.com;",
+    "Content-Security-Policy": "default-src 'self' https://pokeapi.co; connect-src https://pokeapi.co; script-src 'self' 'nonce-<RANDOM_NONCE>'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src https://pokeapi.co https://delightful-flower-0b3c9a41e.6.azurestaticapps.net/?version=7 data:; font-src 'self' https://fonts.gstatic.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;",
     "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "strict-origin-when-cross-origin",
